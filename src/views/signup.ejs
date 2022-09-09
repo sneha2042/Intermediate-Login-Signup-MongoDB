@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs') %>
+
+<div id="signupDetails">
+    <span>Enter your data to signup</span>
+    <br><br>
+    <form action="/signup" method="post">
+        <input type="text" name="name" placeholder="enter name"><br>
+        <input type="email" name="email" placeholder="enter email"><br>
+        <input type="password" name="password"placeholder="'enter password"><br>
+        <input type="passwrd" name="confirmpassword" placeholder="'confirm password"><br>
+        <input type="submit">
+    </form>
+</div>
+
+<%- include ('partials/footer.ejs') %>

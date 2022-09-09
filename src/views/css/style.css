@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    color: black;
+}
+
+/* Header Section */
+
+.header{
+    background-color: brown;
+    width: 100%;
+    height: 50px;
+}
+
+/* Index section */
+
+#indexPage{
+    width: 320px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#welcomeText{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#indexOptions{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+#indexButtons{
+    height: 50px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+/* Login section */
+
+/* Signup section */
+
+/* Home Section */
+
+
+/* Footer Section */
+
+.footer{
+    background-color: brown;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+}
